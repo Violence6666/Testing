@@ -15,10 +15,10 @@ int main() // добавить ()
 
     сout << "Hello. I am " << botName << endl
     сout << "What is your name?" << endl
-    getline(cin; userName)
+    getline(cin, userName)
     cout << "Hello " << userName << endl
     cout << "What is weekday now?" << endl
-    getline(cin; dayOfWeek);
+    getline(cin, dayOfWeek);
     if(dayOfWeek = "monday") {
         cout << "Sunday is so far away!"\n;//Ошибка "Sunday is so far away!/n";
     }
