@@ -8,7 +8,7 @@ using namespace std;
  * @brief main
  * @return
  */
-int main
+int main() // добавить ()
 {
     string botName = "Your Brains"; // := не пишеться
     string userName, dayOfWeek;
@@ -22,7 +22,7 @@ int main
     if(dayOfWeek = "monday") {
         cout << "Sunday is so far away!"\n;//Ошибка "Sunday is so far away!/n";
     }
-    elseif(dayOfWeek = "friday") {
+    else if(dayOfWeek = "friday") { //elseif пишется раздельно 
         cout < "Hurraaa!"\n;//"Hurraaa!\n"
     }
     else {
